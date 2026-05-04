@@ -4,6 +4,10 @@ Keyboard-first wireframe prototyping inside GNU Emacs.
 
 `wireframe-mode` is a lightweight “Wireframing for developers” focused on low-fidelity structure, fast iteration, and DSL-driven UI thinking.
 
+<img width="1136" height="769" alt="example_image_01" src="https://github.com/user-attachments/assets/4199ff3f-d49e-4d93-9abe-eba03ef0bf8e" />
+
+<img width="1340" height="686" alt="example_image_02" src="https://github.com/user-attachments/assets/76288a3e-00a8-414e-88c9-3f42cce5c716" />
+
 ## Features
 
 - Lisp DSL for screen composition
