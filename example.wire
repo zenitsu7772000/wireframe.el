@@ -1,0 +1,15 @@
+(screen home
+  (header "Logo" "Menu")
+  (section :padding 20
+    (title "Hero Title")
+    (paragraph "A quick low-fidelity prototype built from keyboard-friendly DSL.")
+    (container :direction horizontal :gap 12
+      (button "Get Started")
+      (button "Watch Demo")))
+  (section
+    (title "Feature Grid")
+    (card-list 3))
+  (section
+    (title "Media")
+    (title "HELLO")
+    (image-placeholder 400 180)))

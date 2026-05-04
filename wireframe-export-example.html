@@ -1,0 +1,82 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wireframe Preview</title>
+<style>
+:root {
+  --ink:#202838;
+  --line:#8d98aa;
+  --muted:#5e6a81;
+  --bg:#eef2f7;
+  --card:#ffffff;
+  --accent:#1f6feb;
+  --chip:#f8fbff;
+}
+* { box-sizing: border-box; }
+body {
+  margin:0;
+  font-family: "Iosevka Aile", "JetBrains Mono", "Fira Sans", sans-serif;
+  background: radial-gradient(circle at 12% 8%, #f9fcff 0, #eef2f7 45%, #e9edf5 100%);
+  color: var(--ink);
+}
+.wf-screen {
+  max-width: 1100px;
+  margin: 32px auto;
+  padding: 22px;
+  border: 2px solid #6d7a8d;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #fff, #fdfefe);
+  box-shadow: 0 20px 50px rgba(43, 58, 88, .08);
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+.wf-box {
+  border:1px solid var(--line);
+  background: var(--chip);
+  border-radius: 10px;
+}
+.wf-header {
+  display:flex;
+  justify-content:space-between;
+  padding:12px 16px;
+  font-weight:700;
+  letter-spacing:.3px;
+  background: linear-gradient(90deg, #f7fbff, #f2f7ff);
+}
+.wf-section { padding:16px; display:flex; flex-direction:column; gap:10px; background:#fff; }
+.wf-container { padding:12px; gap:10px; background:#f8fbff; }
+.wf-title { margin:0; font-size: 30px; letter-spacing: .2px; }
+.wf-paragraph { margin:0; color:var(--muted); line-height:1.5; }
+.wf-button {
+  border:1px solid #7a8dab;
+  background: linear-gradient(180deg, #f7faff, #edf3ff);
+  color: #23324a;
+  padding:8px 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor:pointer;
+}
+.wf-button:hover { border-color: var(--accent); }
+.wf-image {
+  border-style:dashed;
+  background: repeating-linear-gradient(-45deg,#eef3fb,#eef3fb 8px,#fbfdff 8px,#fbfdff 16px);
+  color:#586980;
+}
+.wf-card-list { display:grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap:12px; }
+.wf-card { padding:12px; display:flex; flex-direction:column; gap:10px; background:#fff; }
+.wf-card h3 { margin:0; font-size:16px; color:#2e3b52; }
+.wf-card p { margin:0; font-size:14px; color:var(--muted); }
+.wf-custom { padding:10px; background:#fff; }
+</style></head><body>
+<main class="wf-screen" data-screen="home"><header class="wf-header wf-box"><div>Logo</div><div>Menu</div></header>
+<section class="wf-section wf-box" style="padding:20px"><h1 class="wf-title">Hero Title</h1>
+<p class="wf-paragraph">A quick low-fidelity prototype built from keyboard-friendly DSL.</p>
+<div class="wf-container wf-box" style="display:flex;flex-direction:row;gap:12px"><button class="wf-button">Get Started</button>
+<button class="wf-button">Watch Demo</button></div></section>
+<section class="wf-section wf-box"><div class="wf-card-list"><article class="wf-card wf-box"><h3>Card 1</h3><p>Placeholder copy.</p><button class="wf-button">Action</button></article>
+<article class="wf-card wf-box"><h3>Card 2</h3><p>Placeholder copy.</p><button class="wf-button">Action</button></article>
+<article class="wf-card wf-box"><h3>Card 3</h3><p>Placeholder copy.</p><button class="wf-button">Action</button></article></div></section>
+<section class="wf-section wf-box"><h1 class="wf-title">HELLO</h1>
+<div class="wf-image wf-box" style="width:400px;height:180px;display:flex;align-items:center;justify-content:center;">Image</div></section></main>
+</body></html>
