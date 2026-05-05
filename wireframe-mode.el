@@ -1,10 +1,10 @@
 ;;; wireframe-mode.el --- Keyboard-first wireframe prototyping -*- lexical-binding: t; -*-
 
-;; Author: Wire Proto MVP
+;; Author: wireframe.el
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "27.1"))
 ;; Keywords: tools, hypermedia
-;; URL: https://example.invalid/wireframe-mode
+;; URL: https://github.com/zenitsu7772000/wireframe.el
 
 ;;; Commentary:
 ;; Minimal, functional wireframe UI prototyping in Emacs.
